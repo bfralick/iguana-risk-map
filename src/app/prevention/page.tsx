@@ -43,7 +43,7 @@ export default function PreventionPage() {
               <CardTitle>Physical Barriers</CardTitle>
             </CardHeader>
             <CardContent className="space-y-2 text-sm text-muted-foreground">
-              <p>• Install sheet metal guards on trees (18"+ wide)</p>
+              <p>• Install sheet metal guards on trees (18&quot;+ wide)</p>
               <p>• Use mesh or netting over plants</p>
               <p>• Fill in holes and burrows promptly</p>
               <p>• Secure gaps under decks and sheds</p>
@@ -72,7 +72,7 @@ export default function PreventionPage() {
             <CardContent className="space-y-2 text-sm text-muted-foreground">
               <p>• Use hardware cloth to protect specific plants</p>
               <p>• Apply taste deterrents to vegetation</p>
-              <p>• Remove food sources (don't feed wildlife)</p>
+              <p>• Remove food sources (don&apos;t feed wildlife)</p>
               <p>• Keep compost bins sealed</p>
             </CardContent>
           </Card>
@@ -84,9 +84,9 @@ export default function PreventionPage() {
           <Card className="bg-red-50 border-red-200">
             <CardContent className="p-6 space-y-2 text-sm text-gray-700">
               <p>✗ <strong>Never feed iguanas</strong> - This encourages them to stay and attracts more</p>
-              <p>✗ <strong>Don't use pesticides or poisons</strong> - Illegal and dangerous to pets/wildlife</p>
+              <p>✗ <strong>Don&apos;t use pesticides or poisons</strong> - Illegal and dangerous to pets/wildlife</p>
               <p>✗ <strong>Avoid harming native species</strong> - Learn to identify iguanas correctly</p>
-              <p>✗ <strong>Don't handle iguanas yourself</strong> - They can bite, scratch, and carry salmonella</p>
+              <p>✗ <strong>Don&apos;t handle iguanas yourself</strong> - They can bite, scratch, and carry salmonella</p>
             </CardContent>
           </Card>
         </section>

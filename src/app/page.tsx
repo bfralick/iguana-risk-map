@@ -29,7 +29,7 @@ export default function HomePage() {
               Florida Iguana Risk Map
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-6">
-              Track iguana population levels across Florida's 67 counties. Interactive map powered by verified sighting data.
+              Track iguana population levels across Florida&apos;s 67 counties. Interactive map powered by verified sighting data.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`${MAIN_SITE_URL}/providers?utm_source=riskmap&utm_medium=referral&utm_campaign=hero_cta`}>
@@ -158,7 +158,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground">
-                  If you're dealing with iguanas on your property, connect with licensed removal professionals in your area. Available for both routine removal and emergency situations.
+                  If you&apos;re dealing with iguanas on your property, connect with licensed removal professionals in your area. Available for both routine removal and emergency situations.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a href={`${MAIN_SITE_URL}/providers?utm_source=riskmap&utm_medium=referral&utm_campaign=bottom_cta_providers`} className="flex-1">
