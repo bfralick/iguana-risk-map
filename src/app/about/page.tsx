@@ -20,7 +20,7 @@ export default function AboutPage() {
             About the Florida Iguana Risk Map
           </h1>
           <p className="text-xl text-muted-foreground">
-            Data-driven insights into invasive iguana populations across Florida's 67 counties
+            Data-driven insights into invasive iguana populations across Florida&apos;s 67 counties
           </p>
         </div>
 
@@ -38,7 +38,7 @@ export default function AboutPage() {
             >
               Iguana Removal Pros
             </a>
-            , Florida's premier directory for licensed iguana removal services.
+            , Florida&apos;s premier directory for licensed iguana removal services.
           </p>
         </section>
 

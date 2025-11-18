@@ -60,7 +60,7 @@ export default function IdentificationPage() {
 
         {/* Vs Native Species */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-foreground mb-6">Don't Confuse With Native Species</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-6">Don&apos;t Confuse With Native Species</h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             <Card>
@@ -138,7 +138,7 @@ export default function IdentificationPage() {
                 3. <strong>Report it</strong> - Help track populations by reporting to iNaturalist
               </p>
               <p className="text-sm text-gray-700">
-                4. <strong>Don't attempt removal yourself</strong> - Contact licensed professionals
+                4. <strong>Don&apos;t attempt removal yourself</strong> - Contact licensed professionals
               </p>
             </CardContent>
           </Card>

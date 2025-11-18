@@ -69,7 +69,7 @@ export default function WhatToDoPage() {
                 If safe to do so, take a clear photo showing:
               </p>
               <ul className="list-disc list-inside text-sm text-muted-foreground ml-4 space-y-1">
-                <li>The iguana's size and coloration</li>
+                <li>The iguana&apos;s size and coloration</li>
                 <li>Distinctive features (spines, dewlap)</li>
                 <li>Location context (yard, seawall, pool, etc.)</li>
               </ul>
