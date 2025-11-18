@@ -151,6 +151,9 @@ export default function AboutPage() {
               <strong>iNaturalist</strong> - Research-grade observations of Green Iguanas (Iguana iguana) in Florida
             </li>
             <li>
+              <strong>EDDMapS</strong> - Early Detection & Distribution Mapping System for invasive species distribution data
+            </li>
+            <li>
               <strong>Florida Fish and Wildlife Conservation Commission (FWC)</strong> - Official wildlife management data
             </li>
             <li>
