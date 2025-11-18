@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { MapIcon, Facebook, Twitter, Instagram } from "lucide-react"
+import Image from "next/image"
 
 const MAIN_SITE_URL = process.env.NEXT_PUBLIC_MAIN_SITE_URL || 'https://iguanaremovalpros.com'
 
@@ -12,9 +12,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 no-underline mb-4">
-              <MapIcon className="h-6 w-6 text-primary" />
-              <span className="font-bold text-foreground">FL Iguana Risk Map</span>
+            <Link href="/" className="flex items-center no-underline mb-4">
+              <Image
+                src="/assets/Iguana-Risk-Map-logo.png"
+                alt="Florida Iguana Risk Map"
+                width={150}
+                height={60}
+                className="h-12 w-auto object-contain"
+              />
             </Link>
             <p className="text-sm text-muted-foreground">
               Track iguana populations across Florida counties. Educational resource by Iguana Removal Pros.

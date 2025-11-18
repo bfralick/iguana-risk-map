@@ -2,8 +2,9 @@
 
 import { useState } from 'react'
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { MapIcon, Menu, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
 
 const MAIN_SITE_URL = process.env.NEXT_PUBLIC_MAIN_SITE_URL || 'https://iguanaremovalpros.com'
 
@@ -14,12 +15,15 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border bg-card/95 backdrop-blur-sm">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="flex h-20 items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 no-underline">
-            <MapIcon className="h-8 w-8 text-primary" />
-            <div className="flex flex-col">
-              <span className="text-lg font-bold text-foreground">Florida Iguana Risk Map</span>
-              <span className="text-xs text-muted-foreground">by Iguana Removal Pros</span>
-            </div>
+          <Link href="/" className="flex items-center no-underline">
+            <Image
+              src="/assets/Iguana-Risk-Map-logo.png"
+              alt="Florida Iguana Risk Map"
+              width={200}
+              height={80}
+              className="h-16 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
