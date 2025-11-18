@@ -1,0 +1,95 @@
+name: Update Iguana Risk Map Data
+
+on:
+  # Run monthly on the 1st at 2 AM UTC
+  schedule:
+    - cron: '0 2 1 * *'
+
+  # Allow manual triggering
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch latest iguana data
+        run: node scripts/fetch-iguana-data.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code src/data/ || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.git-check.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: |
+            Automated risk map data update - $(date +%Y-%m)
+
+            - Fetched latest iguana sighting data from iNaturalist API
+            - Updated risk assessments for all 67 Florida counties
+            - Regenerated JSON with updated metadata
+
+            This is an automated monthly update.
+          branch: automated/risk-data-update-${{ github.run_id }}
+          delete-branch: true
+          title: '🦎 Automated Risk Map Data Update - ${{ github.event.repository.updated_at }}'
+          body: |
+            ## Automated Monthly Risk Map Update
+
+            This PR contains the latest iguana risk assessment data for Florida counties.
+
+            ### Data Sources
+            - **iNaturalist API**: Research-grade green iguana observations
+            - **Analysis Period**: Last 36 months of sightings
+            - **Risk Assessment**: Based on observation frequency and trends
+
+            ### Changes
+            - Updated `florida_iguana_risk_by_county.csv` with latest assessments
+            - Regenerated `iguana-risk-data.json` with new metadata
+            - Last updated timestamp: $(date +"%B %Y")
+
+            ### Review Checklist
+            - [ ] Risk levels appear reasonable for known high-activity areas
+            - [ ] No unexpected changes in established high-risk counties
+            - [ ] Rationale text is accurate and informative
+            - [ ] Data sources are properly attributed
+
+            ---
+            *This PR was automatically created by the monthly data update workflow.*
+            *Review the changes and merge if the risk assessments look accurate.*
+          labels: |
+            automated
+            data-update
+            risk-map
+          assignees: ${{ github.repository_owner }}
+
+      - name: Summary
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          echo "✅ Risk data updated successfully"
+          echo "📋 Pull request created for review"
+
+      - name: No changes
+        if: steps.git-check.outputs.changed != 'true'
+        run: |
+          echo "ℹ️ No changes detected in risk data"
+          echo "Data is already up to date"

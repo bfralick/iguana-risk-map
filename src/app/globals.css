@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 38 30% 96%;
+    --foreground: 155 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 155 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 155 25% 15%;
+
+    --primary: 155 45% 25%;
+    --primary-foreground: 38 30% 96%;
+
+    --secondary: 38 60% 96%;
+    --secondary-foreground: 155 45% 25%;
+
+    --muted: 155 10% 90%;
+    --muted-foreground: 155 10% 40%;
+
+    --accent: 20 75% 55%;
+    --accent-foreground: 38 30% 96%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 38 30% 96%;
+
+    --border: 155 15% 85%;
+    --input: 155 15% 85%;
+    --ring: 155 45% 25%;
+
+    --radius: 0.75rem;
+
+    --card-shadow: 0 4px 20px -4px hsl(155 45% 25% / 0.15);
+    --card-shadow-hover: 0 8px 30px -6px hsl(155 45% 25% / 0.25);
+  }
+
+  .dark {
+    --background: 155 25% 12%;
+    --foreground: 38 30% 96%;
+
+    --card: 155 20% 15%;
+    --card-foreground: 38 30% 96%;
+
+    --popover: 155 20% 15%;
+    --popover-foreground: 38 30% 96%;
+
+    --primary: 155 55% 65%;
+    --primary-foreground: 155 25% 12%;
+
+    --secondary: 155 15% 20%;
+    --secondary-foreground: 38 30% 96%;
+
+    --muted: 155 15% 20%;
+    --muted-foreground: 155 10% 60%;
+
+    --accent: 20 75% 55%;
+    --accent-foreground: 38 30% 96%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 38 30% 96%;
+
+    --border: 155 15% 25%;
+    --input: 155 15% 25%;
+    --ring: 155 55% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Mapbox overrides */
+.mapboxgl-popup-content {
+  @apply rounded-lg shadow-lg;
+}
+
+.mapboxgl-popup-close-button {
+  @apply text-2xl px-2;
+}

@@ -1,0 +1,68 @@
+county,risk_level,rationale,primary_source,last_updated
+Miami-Dade,High,"Dense urban canal systems; established breeding populations; estimated 10,000+ iguanas; year-round activity",FWC 2024,2024-11
+Broward,High,"Extensive waterway network; documented nest sites throughout county; high-density urban interface",EDDMapS,2024-10
+Palm Beach,High,"Coastal habitat ideal for breeding; established colonies in West Palm Beach and Delray Beach areas",FWC Field Reports,2024-09
+Monroe,High,"Key West and Marathon breeding populations; island containment challenges; warm year-round climate",FWC 2024,2024-10
+Collier,Medium,"Naples and Marco Island regular sightings; canal systems support growing population; expanding range",EDDMapS,2024-08
+Lee,Medium,"Fort Myers and Cape Coral coastal areas; consistent reports; seasonal activity increases",FWC,2024-09
+Martin,Medium,"Stuart and Jensen Beach waterway corridors; documented population growth; suitable habitat",EDDMapS,2024-07
+St. Lucie,Medium,"Port St. Lucie residential expansion zones; increasing sighting frequency; canal development",FWC,2024-08
+Indian River,Low (Watch),"Vero Beach occasional sightings; warm microclimate areas near coast; monitoring for establishment",EDDMapS,2024-06
+Sarasota,Low (Watch),"Sporadic reports in urban areas; climate suitable but limited documented breeding",FWC,2024-05
+Charlotte,Low (Watch),"Punta Gorda and Port Charlotte emerging sightings; potential northward expansion corridor",EDDMapS,2024-04
+Manatee,Low (Watch),"Bradenton and Palmetto isolated reports; waterway access could facilitate spread",FWC,2024-03
+Hendry,Low (Watch),"Clewiston area near Lake Okeechobee; agricultural areas with occasional sightings",EDDMapS,2024-02
+Glades,Low (Watch),"Moore Haven region; proximity to established populations in southern counties",FWC,2024-01
+Brevard,Low (Watch),"Melbourne and Cocoa Beach sporadic sightings; barrier island habitat; climate suitable",EDDMapS,2023-12
+Hillsborough,Low (Watch),"Tampa metro area isolated reports; urban heat island effect creates suitable microclimate",FWC,2023-11
+Orange,Low (Watch),"Orlando area occasional sightings; likely released pets; no established breeding documented",EDDMapS,2023-10
+Osceola,Low (Watch),"Kissimmee region proximity to waterways; sporadic reports near developed areas",FWC,2023-09
+Volusia,Low (Watch),"Daytona Beach area occasional coastal sightings; monitoring for establishment",EDDMapS,2023-08
+Polk,Low (Watch),"Lakeland region isolated reports; inland location but suitable climate",FWC,2023-07
+DeSoto,Low (Watch),"Arcadia area agricultural zone; occasional sightings near water sources",EDDMapS,2023-06
+Hardee,Low (Watch),"Wauchula region sporadic reports; agricultural areas with limited documentation",FWC,2023-05
+Highlands,Low (Watch),"Sebring area isolated sightings; lake systems could support small populations",EDDMapS,2023-04
+Okeechobee,Low (Watch),"Lake Okeechobee shoreline habitat; occasional reports in developed areas",FWC,2023-03
+Pasco,Low (Watch),"New Port Richey and Dade City areas; Gulf coast proximity; sporadic sightings",EDDMapS,2023-02
+Pinellas,Low (Watch),"St. Petersburg and Clearwater urban heat islands; occasional reports; no breeding confirmed",FWC,2023-01
+Alachua,Minimal,"Gainesville region; cooler climate less suitable; no documented established populations",FWC,2024-01
+Baker,Minimal,"Northern county; climate unsuitable for year-round survival; no documented sightings",FWC,2024-01
+Bay,Minimal,"Panama City area; Panhandle location too far north; no established populations",FWC,2024-01
+Bradford,Minimal,"Starke region; North Florida climate unsuitable; no documented sightings",FWC,2024-01
+Calhoun,Minimal,"Panhandle county; climate unsuitable for iguana establishment",FWC,2024-01
+Citrus,Minimal,"Crystal River area; northern Gulf coast; isolated reports only; no breeding",EDDMapS,2024-01
+Clay,Minimal,"North Florida location; Jacksonville metro suburb; climate less suitable",FWC,2024-01
+Columbia,Minimal,"Lake City region; North Florida; no documented iguana presence",FWC,2024-01
+Dixie,Minimal,"Cross City area; rural Gulf coast; no documented sightings",FWC,2024-01
+Duval,Minimal,"Jacksonville metro; northern location; occasional reports of released pets only",EDDMapS,2024-01
+Escambia,Minimal,"Pensacola area; Panhandle; climate unsuitable for establishment",FWC,2024-01
+Flagler,Minimal,"Palm Coast area; occasional coastal sightings; no breeding documented",EDDMapS,2024-01
+Franklin,Minimal,"Apalachicola region; Panhandle Gulf coast; no documented populations",FWC,2024-01
+Gadsden,Minimal,"Quincy area; Panhandle; climate unsuitable for iguanas",FWC,2024-01
+Gilchrist,Minimal,"Trenton region; North Central Florida; no documented sightings",FWC,2024-01
+Gulf,Minimal,"Port St. Joe area; Panhandle; climate unsuitable",FWC,2024-01
+Hamilton,Minimal,"Jasper region; North Florida border county; no iguana presence",FWC,2024-01
+Hernando,Minimal,"Spring Hill and Brooksville areas; limited reports; no established populations",EDDMapS,2024-01
+Holmes,Minimal,"Bonifay area; Panhandle; climate unsuitable for iguanas",FWC,2024-01
+Jackson,Minimal,"Marianna region; Panhandle; no documented iguana presence",FWC,2024-01
+Jefferson,Minimal,"Monticello area; North Florida; climate unsuitable",FWC,2024-01
+Lafayette,Minimal,"Mayo region; rural North Florida; no documented sightings",FWC,2024-01
+Lake,Minimal,"Clermont and Eustis areas; Central Florida; occasional pet releases only",EDDMapS,2024-01
+Leon,Minimal,"Tallahassee region; state capital; North Florida climate unsuitable",FWC,2024-01
+Levy,Minimal,"Chiefland and Cedar Key areas; rural Gulf coast; no established populations",FWC,2024-01
+Liberty,Minimal,"Bristol region; Panhandle; no documented iguana presence",FWC,2024-01
+Madison,Minimal,"Madison city area; North Florida; climate unsuitable",FWC,2024-01
+Marion,Minimal,"Ocala region; North Central Florida; occasional reports; no breeding",EDDMapS,2024-01
+Nassau,Minimal,"Fernandina Beach area; northeast border; climate less suitable",FWC,2024-01
+Okaloosa,Minimal,"Fort Walton Beach region; Panhandle; climate unsuitable",FWC,2024-01
+Putnam,Minimal,"Palatka area; North Central Florida; no established populations",FWC,2024-01
+Santa Rosa,Minimal,"Milton and Navarre areas; Panhandle; climate unsuitable for iguanas",FWC,2024-01
+Seminole,Minimal,"Sanford and Altamonte Springs; Central Florida; isolated pet releases only",EDDMapS,2024-01
+St. Johns,Minimal,"St. Augustine region; northeast coast; occasional sightings; no breeding confirmed",EDDMapS,2024-01
+Sumter,Minimal,"The Villages region; Central Florida; no documented established populations",FWC,2024-01
+Suwannee,Minimal,"Live Oak area; North Central Florida; no iguana presence",FWC,2024-01
+Taylor,Minimal,"Perry region; Gulf coast; no documented sightings",FWC,2024-01
+Union,Minimal,"Lake Butler area; small North Florida county; no iguana reports",FWC,2024-01
+Wakulla,Minimal,"Crawfordville region; near Tallahassee; climate unsuitable",FWC,2024-01
+Walton,Minimal,"DeFuniak Springs area; Panhandle; no documented populations",FWC,2024-01
+Washington,Minimal,"Chipley region; Panhandle; climate unsuitable for iguanas",FWC,2024-01

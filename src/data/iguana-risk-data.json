@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "lastUpdated": "2024-11",
+    "totalCounties": 67,
+    "generatedAt": "2025-11-16T06:37:00.159Z"
+  },
+  "counties": {
+    "Miami-Dade": {
+      "risk": "High",
+      "rationale": "Dense urban canal systems; established breeding populations; estimated 10,000+ iguanas; year-round activity",
+      "source": "FWC 2024",
+      "lastUpdated": "2024-11",
+      "color": "#DC2626"
+    },
+    "Broward": {
+      "risk": "High",
+      "rationale": "Extensive waterway network; documented nest sites throughout county; high-density urban interface",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-10",
+      "color": "#DC2626"
+    },
+    "Palm Beach": {
+      "risk": "High",
+      "rationale": "Coastal habitat ideal for breeding; established colonies in West Palm Beach and Delray Beach areas",
+      "source": "FWC Field Reports",
+      "lastUpdated": "2024-09",
+      "color": "#DC2626"
+    },
+    "Monroe": {
+      "risk": "High",
+      "rationale": "Key West and Marathon breeding populations; island containment challenges; warm year-round climate",
+      "source": "FWC 2024",
+      "lastUpdated": "2024-10",
+      "color": "#DC2626"
+    },
+    "Collier": {
+      "risk": "Medium",
+      "rationale": "Naples and Marco Island regular sightings; canal systems support growing population; expanding range",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-08",
+      "color": "#EA580C"
+    },
+    "Lee": {
+      "risk": "Medium",
+      "rationale": "Fort Myers and Cape Coral coastal areas; consistent reports; seasonal activity increases",
+      "source": "FWC",
+      "lastUpdated": "2024-09",
+      "color": "#EA580C"
+    },
+    "Martin": {
+      "risk": "Medium",
+      "rationale": "Stuart and Jensen Beach waterway corridors; documented population growth; suitable habitat",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-07",
+      "color": "#EA580C"
+    },
+    "St. Lucie": {
+      "risk": "Medium",
+      "rationale": "Port St. Lucie residential expansion zones; increasing sighting frequency; canal development",
+      "source": "FWC",
+      "lastUpdated": "2024-08",
+      "color": "#EA580C"
+    },
+    "Indian River": {
+      "risk": "Low (Watch)",
+      "rationale": "Vero Beach occasional sightings; warm microclimate areas near coast; monitoring for establishment",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-06",
+      "color": "#CA8A04"
+    },
+    "Sarasota": {
+      "risk": "Low (Watch)",
+      "rationale": "Sporadic reports in urban areas; climate suitable but limited documented breeding",
+      "source": "FWC",
+      "lastUpdated": "2024-05",
+      "color": "#CA8A04"
+    },
+    "Charlotte": {
+      "risk": "Low (Watch)",
+      "rationale": "Punta Gorda and Port Charlotte emerging sightings; potential northward expansion corridor",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-04",
+      "color": "#CA8A04"
+    },
+    "Manatee": {
+      "risk": "Low (Watch)",
+      "rationale": "Bradenton and Palmetto isolated reports; waterway access could facilitate spread",
+      "source": "FWC",
+      "lastUpdated": "2024-03",
+      "color": "#CA8A04"
+    },
+    "Hendry": {
+      "risk": "Low (Watch)",
+      "rationale": "Clewiston area near Lake Okeechobee; agricultural areas with occasional sightings",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-02",
+      "color": "#CA8A04"
+    },
+    "Glades": {
+      "risk": "Low (Watch)",
+      "rationale": "Moore Haven region; proximity to established populations in southern counties",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#CA8A04"
+    },
+    "Brevard": {
+      "risk": "Low (Watch)",
+      "rationale": "Melbourne and Cocoa Beach sporadic sightings; barrier island habitat; climate suitable",
+      "source": "EDDMapS",
+      "lastUpdated": "2023-12",
+      "color": "#CA8A04"
+    },
+    "Hillsborough": {
+      "risk": "Low (Watch)",
+      "rationale": "Tampa metro area isolated reports; urban heat island effect creates suitable microclimate",
+      "source": "FWC",
+      "lastUpdated": "2023-11",
+      "color": "#CA8A04"
+    },
+    "Orange": {
+      "risk": "Low (Watch)",
+      "rationale": "Orlando area occasional sightings; likely released pets; no established breeding documented",
+      "source": "EDDMapS",
+      "lastUpdated": "2023-10",
+      "color": "#CA8A04"
+    },
+    "Osceola": {
+      "risk": "Low (Watch)",
+      "rationale": "Kissimmee region proximity to waterways; sporadic reports near developed areas",
+      "source": "FWC",
+      "lastUpdated": "2023-09",
+      "color": "#CA8A04"
+    },
+    "Volusia": {
+      "risk": "Low (Watch)",
+      "rationale": "Daytona Beach area occasional coastal sightings; monitoring for establishment",
+      "source": "EDDMapS",
+      "lastUpdated": "2023-08",
+      "color": "#CA8A04"
+    },
+    "Polk": {
+      "risk": "Low (Watch)",
+      "rationale": "Lakeland region isolated reports; inland location but suitable climate",
+      "source": "FWC",
+      "lastUpdated": "2023-07",
+      "color": "#CA8A04"
+    },
+    "DeSoto": {
+      "risk": "Low (Watch)",
+      "rationale": "Arcadia area agricultural zone; occasional sightings near water sources",
+      "source": "EDDMapS",
+      "lastUpdated": "2023-06",
+      "color": "#CA8A04"
+    },
+    "Hardee": {
+      "risk": "Low (Watch)",
+      "rationale": "Wauchula region sporadic reports; agricultural areas with limited documentation",
+      "source": "FWC",
+      "lastUpdated": "2023-05",
+      "color": "#CA8A04"
+    },
+    "Highlands": {
+      "risk": "Low (Watch)",
+      "rationale": "Sebring area isolated sightings; lake systems could support small populations",
+      "source": "EDDMapS",
+      "lastUpdated": "2023-04",
+      "color": "#CA8A04"
+    },
+    "Okeechobee": {
+      "risk": "Low (Watch)",
+      "rationale": "Lake Okeechobee shoreline habitat; occasional reports in developed areas",
+      "source": "FWC",
+      "lastUpdated": "2023-03",
+      "color": "#CA8A04"
+    },
+    "Pasco": {
+      "risk": "Low (Watch)",
+      "rationale": "New Port Richey and Dade City areas; Gulf coast proximity; sporadic sightings",
+      "source": "EDDMapS",
+      "lastUpdated": "2023-02",
+      "color": "#CA8A04"
+    },
+    "Pinellas": {
+      "risk": "Low (Watch)",
+      "rationale": "St. Petersburg and Clearwater urban heat islands; occasional reports; no breeding confirmed",
+      "source": "FWC",
+      "lastUpdated": "2023-01",
+      "color": "#CA8A04"
+    },
+    "Alachua": {
+      "risk": "Minimal",
+      "rationale": "Gainesville region; cooler climate less suitable; no documented established populations",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Baker": {
+      "risk": "Minimal",
+      "rationale": "Northern county; climate unsuitable for year-round survival; no documented sightings",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Bay": {
+      "risk": "Minimal",
+      "rationale": "Panama City area; Panhandle location too far north; no established populations",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Bradford": {
+      "risk": "Minimal",
+      "rationale": "Starke region; North Florida climate unsuitable; no documented sightings",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Calhoun": {
+      "risk": "Minimal",
+      "rationale": "Panhandle county; climate unsuitable for iguana establishment",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Citrus": {
+      "risk": "Minimal",
+      "rationale": "Crystal River area; northern Gulf coast; isolated reports only; no breeding",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Clay": {
+      "risk": "Minimal",
+      "rationale": "North Florida location; Jacksonville metro suburb; climate less suitable",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Columbia": {
+      "risk": "Minimal",
+      "rationale": "Lake City region; North Florida; no documented iguana presence",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Dixie": {
+      "risk": "Minimal",
+      "rationale": "Cross City area; rural Gulf coast; no documented sightings",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Duval": {
+      "risk": "Minimal",
+      "rationale": "Jacksonville metro; northern location; occasional reports of released pets only",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Escambia": {
+      "risk": "Minimal",
+      "rationale": "Pensacola area; Panhandle; climate unsuitable for establishment",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Flagler": {
+      "risk": "Minimal",
+      "rationale": "Palm Coast area; occasional coastal sightings; no breeding documented",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Franklin": {
+      "risk": "Minimal",
+      "rationale": "Apalachicola region; Panhandle Gulf coast; no documented populations",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Gadsden": {
+      "risk": "Minimal",
+      "rationale": "Quincy area; Panhandle; climate unsuitable for iguanas",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Gilchrist": {
+      "risk": "Minimal",
+      "rationale": "Trenton region; North Central Florida; no documented sightings",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Gulf": {
+      "risk": "Minimal",
+      "rationale": "Port St. Joe area; Panhandle; climate unsuitable",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Hamilton": {
+      "risk": "Minimal",
+      "rationale": "Jasper region; North Florida border county; no iguana presence",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Hernando": {
+      "risk": "Minimal",
+      "rationale": "Spring Hill and Brooksville areas; limited reports; no established populations",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Holmes": {
+      "risk": "Minimal",
+      "rationale": "Bonifay area; Panhandle; climate unsuitable for iguanas",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Jackson": {
+      "risk": "Minimal",
+      "rationale": "Marianna region; Panhandle; no documented iguana presence",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Jefferson": {
+      "risk": "Minimal",
+      "rationale": "Monticello area; North Florida; climate unsuitable",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Lafayette": {
+      "risk": "Minimal",
+      "rationale": "Mayo region; rural North Florida; no documented sightings",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Lake": {
+      "risk": "Minimal",
+      "rationale": "Clermont and Eustis areas; Central Florida; occasional pet releases only",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Leon": {
+      "risk": "Minimal",
+      "rationale": "Tallahassee region; state capital; North Florida climate unsuitable",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Levy": {
+      "risk": "Minimal",
+      "rationale": "Chiefland and Cedar Key areas; rural Gulf coast; no established populations",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Liberty": {
+      "risk": "Minimal",
+      "rationale": "Bristol region; Panhandle; no documented iguana presence",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Madison": {
+      "risk": "Minimal",
+      "rationale": "Madison city area; North Florida; climate unsuitable",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Marion": {
+      "risk": "Minimal",
+      "rationale": "Ocala region; North Central Florida; occasional reports; no breeding",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Nassau": {
+      "risk": "Minimal",
+      "rationale": "Fernandina Beach area; northeast border; climate less suitable",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Okaloosa": {
+      "risk": "Minimal",
+      "rationale": "Fort Walton Beach region; Panhandle; climate unsuitable",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Putnam": {
+      "risk": "Minimal",
+      "rationale": "Palatka area; North Central Florida; no established populations",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Santa Rosa": {
+      "risk": "Minimal",
+      "rationale": "Milton and Navarre areas; Panhandle; climate unsuitable for iguanas",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Seminole": {
+      "risk": "Minimal",
+      "rationale": "Sanford and Altamonte Springs; Central Florida; isolated pet releases only",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "St. Johns": {
+      "risk": "Minimal",
+      "rationale": "St. Augustine region; northeast coast; occasional sightings; no breeding confirmed",
+      "source": "EDDMapS",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Sumter": {
+      "risk": "Minimal",
+      "rationale": "The Villages region; Central Florida; no documented established populations",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Suwannee": {
+      "risk": "Minimal",
+      "rationale": "Live Oak area; North Central Florida; no iguana presence",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Taylor": {
+      "risk": "Minimal",
+      "rationale": "Perry region; Gulf coast; no documented sightings",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Union": {
+      "risk": "Minimal",
+      "rationale": "Lake Butler area; small North Florida county; no iguana reports",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Wakulla": {
+      "risk": "Minimal",
+      "rationale": "Crawfordville region; near Tallahassee; climate unsuitable",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Walton": {
+      "risk": "Minimal",
+      "rationale": "DeFuniak Springs area; Panhandle; no documented populations",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    },
+    "Washington": {
+      "risk": "Minimal",
+      "rationale": "Chipley region; Panhandle; climate unsuitable for iguanas",
+      "source": "FWC",
+      "lastUpdated": "2024-01",
+      "color": "#9CA3AF"
+    }
+  }
+}
