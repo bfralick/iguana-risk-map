@@ -239,16 +239,16 @@ export function IguanaRiskMap({ onCountySelect }: IguanaRiskMapProps) {
           )}
         </div>
 
-        {/* Desktop Sidebar */}
-        <div className="hidden md:block w-80 space-y-4">
-          {selectedCounty && (
+        {/* Desktop Sidebar - only render when county is selected */}
+        {selectedCounty && (
+          <div className="hidden md:block w-80 space-y-4">
             <CountyDetailsCard
               county={selectedCounty}
               onFindProviders={handleFindProviders}
               onClose={handleCloseDetails}
             />
-          )}
-        </div>
+          </div>
+        )}
       </div>
 
       {/* Mobile Bottom Sheet */}
