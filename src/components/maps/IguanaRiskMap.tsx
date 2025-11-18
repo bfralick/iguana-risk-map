@@ -9,7 +9,6 @@ import riskDataImport from '@/data/iguana-risk-data.json'
 import { getRiskColor, getFillOpacity, FLORIDA_CENTER, MAP_ZOOM } from '@/lib/maps/risk-config'
 import { normalizeCountyName, getProviderSearchUrl } from '@/lib/maps/county-utils'
 import { RiskDataMap, SelectedCounty } from '@/types/maps'
-import { RiskLegend } from './RiskLegend'
 import { CountyDetailsCard } from './CountyDetailsCard'
 
 // Extract counties data from the new JSON structure
@@ -221,11 +220,6 @@ export function IguanaRiskMap({ onCountySelect }: IguanaRiskMapProps) {
 
   return (
     <div className="w-full space-y-4">
-      {/* Legend - Always visible at top on mobile, sidebar on desktop */}
-      <div className="md:hidden">
-        <RiskLegend />
-      </div>
-
       {/* Map and Desktop Sidebar */}
       <div className="flex flex-col md:flex-row gap-4">
         {/* Map Container */}
@@ -254,7 +248,6 @@ export function IguanaRiskMap({ onCountySelect }: IguanaRiskMapProps) {
               onClose={handleCloseDetails}
             />
           )}
-          <RiskLegend />
         </div>
       </div>
 
